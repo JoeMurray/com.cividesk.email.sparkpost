@@ -1,5 +1,5 @@
 # Suppression List
-SparkPost supports two types of suppression lists: one (available via the Suppression List API) is specific to your account, and a global suppression list across all it's customers.
+SparkPost supports two types of suppression lists: one (available via the Suppression List API) is specific to your account, and a global suppression list across all its customers.
 
 ## Adding email addresses to the suppression list
 Both Sparkpost and CiviCRM are actively managing suppresion lists. Email addresses are automatically added to the suppression list on delivery failure events such as hard bounces (invalid email address, email rejected as spam, etc) and after a set number of soft bounces (mailbox full, out of office message, etc).
