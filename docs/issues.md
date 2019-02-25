@@ -13,3 +13,5 @@ Sparkpost will reject any emails sent from an unauthorized domain (ie. not added
 * emails sent from a Forward Mailing link are sent From: the email of the person that sends the email - this is a core issue, see [#21](https://github.com/cividesk/com.cividesk.email.sparkpost/issues/21) and [CRM-18458](https://issues.civicrm.org/jira/browse/CRM-18458).
 
 In order to alleviate these issues, it is highly recommended that you use and setup a backup mailer. This backup mailer will be used whenever Sparkpost cannot/refuses to send. The backup mailer is configured at the bottom of the Sparkpost configuration screen.
+
+In addition, you may want to consider installing the Outbound Domain Enforcement extension, https://github.com/JMAConsulting/biz.jmaconsulting.ode. 
